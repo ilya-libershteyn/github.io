@@ -1,25 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./components/Header.js"
+import Footer from "./components/Footer.js"
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <h1>I<span class="seo">lya</span> Libershteyn</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about">About Me</a>
-                </li>
-                <li>
-                    <a href="#Work">Work</a>
-                </li>
-                <li>
-                    <a href="#Contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+      <Header/>
     <div class="hero" alt="A picture of the developer"></div>
     <main class="content">        
         <article id="about">    
@@ -42,18 +28,8 @@ function App() {
                     </div>
                 </a>    
             </div>
-        </article>        
-        <article id="Contact">
-            <h2>Contact</h2>
-            <div class="contact">
-                <ul>
-                    <li><a href="tel:14088924264">(408)892-4264</a></li>
-                    <li><a href="mailto:ilya.v.libershteyn@gmail.com">ilya.v.libershteyn@gmail.com</a></li>
-                    <li><a href="https://www.linkedin.com/in/ilya-libershteyn/" target="_blank">LinkedIn</a></li>
-                    <li><a href="https://github.com/ilya-libershteyn" target="_blank">GitHub</a></li>
-                </ul>
-            </div>
         </article>
+        <Footer/>
     </main>
     </div>
   );
