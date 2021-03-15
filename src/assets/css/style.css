@@ -97,7 +97,7 @@ article .about_text, .work, .contact{
                                       rgba(0, 0, 0, 0.6));
     background-size: cover;
     height: 20em;
-    width: 90%;
+    width: 100%;
     display: flex
 }
 
@@ -108,9 +108,10 @@ article .about_text, .work, .contact{
                                       rgba(0, 0, 0, 0.6));
     background-size: cover;
     height: 12em;
-    width: 30%;
+    width: 33%;
     display: flex;
     margin-top: 10px;
+    margin-left: 15px;
 }
 
 .label {

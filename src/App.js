@@ -1,6 +1,9 @@
 import './App.css';
-import Header from "./components/Header.js"
-import Footer from "./components/Footer.js"
+import Header from "./components/Header.js";
+import Footer from "./components/Footer.js";
+import Project from "./components/Project.js";
+import SubProject from "./components/SubProject.js";
+import projectData from "./components/projectData.js";
 
 function App() {
   return (
@@ -19,14 +22,11 @@ function App() {
         <article id="Work">            
             <h2>Work</h2>
             <div class="work">
-                <a href="https://ilya-libershteyn.github.io/CodeRefactorHomework01/" target="_blank">
-                    <div class="main_tile">
-                        <div class="label">
-                            <h3>Horiseon</h3>
-                            <p>Code Refactor</p>
-                        </div>
-                    </div>
-                </a>    
+                <Project projectData={projectData[0]}/>
+                <div class="row">
+                  <SubProject projectData={projectData[1]}/>
+                  <SubProject projectData={projectData[2]}/>
+                </div>
             </div>
         </article>
         <Footer/>
