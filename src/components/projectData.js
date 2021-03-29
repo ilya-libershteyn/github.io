@@ -24,7 +24,7 @@ let projectData = [
         github: "https://github.com/ilya-libershteyn/WorkoutTracker"
     },
     {
-        name: "Employee Tracler",
+        name: "Employee Tracker",
         image: "https://raw.githubusercontent.com/ilya-libershteyn/EmployeeTracker/main/media/Screenshot_2.jpg",
         url: "",
         github: "https://github.com/ilya-libershteyn/EmployeeTracker"
@@ -33,7 +33,7 @@ let projectData = [
         name: "Note Taker",
         image: "https://raw.githubusercontent.com/ilya-libershteyn/NoteTaker/main/Screenshot_1.jpg",
         url: "https://gentle-garden-03393.herokuapp.com/notes",
-        github: "https://gentle-garden-03393.herokuapp.com/notes"
+        github: "https://github.com/ilya-libershteyn/NoteTaker"
     }
 ];
 
